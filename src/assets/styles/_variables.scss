@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oranienbaum&display=swap');
+
 $accent: #8E0000; 
 
 $white: #ffffff;
@@ -17,3 +20,8 @@ $light-brown: #D1AD84;
 
 $blue: #4587D9;
 $green: #52C12C;
+
+$default-font: "Montserrat", sans-serif;
+$accent-font: "Oranienbaum", serif;
+
+$mobile: 768px;
