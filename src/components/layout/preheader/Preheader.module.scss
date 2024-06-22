@@ -1,0 +1,36 @@
+@import '/src/assets/styles/_variables.scss';
+@import '/src/assets/styles/_animations.scss';
+
+.preheader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+
+	.wrapperInner {
+		display: flex;
+		align-content: center;
+		flex-direction: row;
+		align-items: center;
+		gap: 15px;
+
+		> h1 {
+			font-weight: 600;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+	}
+
+	.contacts {
+		display: flex;
+		gap: 20px;
+
+		> a {
+			text-decoration: none;
+			color: $black;
+			font-weight: 600;
+			font-size: 20px;
+		}
+	}
+}

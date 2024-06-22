@@ -1,0 +1,31 @@
+@import '/src/assets/styles/_variables.scss';
+
+.menu {
+	background-color: $white;
+	border-radius: 10px;
+	width: 100%;
+	padding: 10px;
+	> ul {
+		border: 1px dashed $light-brown;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+		> li {
+			color: $light-black;
+			font-size: 13px;
+			font-weight: 500;
+		}
+	}
+
+	> ul,
+	li {
+		list-style: none;
+		width: 100%;
+		text-align: center;
+		white-space: nowrap;
+	}
+}
