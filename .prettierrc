@@ -8,16 +8,15 @@
 	"arrowParens": "avoid",
 	"plugins": ["@trivago/prettier-plugin-sort-imports"],
 	"importOrder": [
-	  "<THIRD_PARTY_MODULES>",
-	  "/ui/",
-	  "/hooks/",
-	  "/screens/",
-	  "/components/",
-	  "^../(.*)",
-	  "^./(.*)",
-	  "/module.scss"
+		"<THIRD_PARTY_MODULES>",
+		"/ui/",
+		"/hooks/",
+		"/screens/",
+		"/components/",
+		"^../(.*)",
+		"^./(.*)",
+		"/module.scss"
 	],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true
 }
-  
