@@ -1,0 +1,45 @@
+@import '/src/assets/styles/_variables.scss';
+
+.footer {
+	display: flex;
+	gap: 15px;
+	background-color: $dirty-black;
+	height: 40px;
+	width: 100%;
+	max-width: 100%;
+	.footer_inner {
+		width: 80%;
+		margin: 10px auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 15px;
+		p {
+			color: $white;
+			font-weight: 400;
+		}
+		a {
+			color: $white;
+			font-size: 16px;
+			font-weight: 600;
+		}
+	}
+
+	.links {
+		margin-left: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex: 1;
+		a {
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 24px;
+			text-align: left;
+			text-decoration: underline;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+}

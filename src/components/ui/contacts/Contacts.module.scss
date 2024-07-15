@@ -1,0 +1,13 @@
+@import '/src/assets/styles/_variables.scss';
+
+.contacts {
+	display: flex;
+	gap: 15px;
+
+	> a {
+		text-decoration: none;
+		color: $black;
+		font-weight: 600;
+		font-size: 20px;
+	}
+}

@@ -1,15 +1,13 @@
-import styles from './Layout.module.scss'
+import Footer from './footer/Footer'
 import Header from './header/Header'
 
-const Layout = ({ children, bgImage, heading = '', backLink = '/' }) => {
+const Layout = ({ children }) => {
 	return (
-		<section
-			className={styles.layout}
-			style={{ backgroundImage: `url(${bgImage}` }}
-		>
+		<>
 			<Header />
-			{children && <div>{children}</div>}
-		</section>
+			{children && <>{children}</>}
+			<Footer />
+		</>
 	)
 }
 

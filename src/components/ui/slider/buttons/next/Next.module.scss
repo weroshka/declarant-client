@@ -1,0 +1,18 @@
+@import '/src/assets/styles/_variables.scss';
+
+.nextArrow {
+	right: -40px !important;
+	> svg {
+		stroke: $beige;
+		width: 20px;
+		height: 25px;
+
+		&:hover {
+			fill: $dark-brown;
+		}
+	}
+
+	&::before {
+		content: '';
+	}
+}

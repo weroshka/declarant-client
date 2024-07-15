@@ -1,0 +1,19 @@
+@import '/src/assets/styles/_variables.scss';
+
+.prevArrow {
+	left: -40px !important;
+
+	> svg {
+		stroke: $beige;
+		width: 20px;
+		height: 25px;
+
+		&:hover {
+			fill: $dark-brown;
+		}
+	}
+
+	&::before {
+		content: '';
+	}
+}

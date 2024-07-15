@@ -1,0 +1,37 @@
+@import '/src/assets/styles/_variables.scss';
+
+.substrate {
+	background-color: $white;
+	box-shadow: 0px 4px 50px 0px #7b63481a;
+	border-radius: 10% 10% 30% 30%;
+	//-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%, 0% 95%);
+	//clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 50% 100%, 0% 95%, 0% 95%);
+	border-radius: 1rem;
+	width: fit-content;
+	padding: 50px;
+	position: relative;
+	width: 100%;
+	outline: 2px dashed $light-brown;
+	outline-offset: -10px;
+	transform: translateY(50px);
+	.inner_substrate {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	h1,
+	h2 {
+		font-family: $accent-font;
+		font-size: 55px;
+		font-weight: 400;
+		line-height: 75px;
+		color: $dark-grey;
+		text-align: center;
+	}
+	h1 {
+		color: $dark-brown;
+	}
+	&.main {
+		width: 50%;
+	}
+}

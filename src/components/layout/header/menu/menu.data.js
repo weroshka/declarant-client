@@ -11,21 +11,21 @@ export const menu = [
 
 	{
 		title: 'Программы',
-		link: '/'
+		link: '/programs'
 	},
 
 	{
 		title: 'Партнеры',
-		link: '/'
+		link: '/partners'
 	},
 
 	{
 		title: 'О компании',
-		link: '/'
+		link: '/about-company'
 	},
 
 	{
 		title: 'Контакты',
-		link: '/'
+		link: '/contacts'
 	}
 ]

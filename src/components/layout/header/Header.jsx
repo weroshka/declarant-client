@@ -6,8 +6,10 @@ import Menu from './menu/Menu'
 const Header = () => {
 	return (
 		<header className={styles.header}>
-			<Preheader />
-			<Menu />
+			<div className={styles.inner_header}>
+				<Preheader />
+				<Menu />
+			</div>
 		</header>
 	)
 }
